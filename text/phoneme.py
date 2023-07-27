@@ -6,7 +6,7 @@ except:
     pass
 
 list_phones = []
-with open('C:/Users/ADMIN/Desktop/tacotron2-vn/tacotron/text/phoneme.txt', 'r', encoding='utf-8') as rf:
+with open('/content/drive/MyDrive/Vinbigdata/phoneme.txt', 'r', encoding='utf-8') as rf:
     lines = rf.read().split('\n')
     for line in lines:
         if len(line.strip()) > 0:
